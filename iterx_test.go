@@ -13,10 +13,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/azamasu/gocqlx"
+	. "github.com/azamasu/gocqlx/gocqlxtest"
 	"github.com/gocql/gocql"
-	"github.com/scylladb/gocqlx"
-	. "github.com/scylladb/gocqlx/gocqlxtest"
-	"gopkg.in/inf.v0"
 )
 
 type FullName struct {

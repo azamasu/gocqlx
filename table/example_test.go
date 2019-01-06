@@ -9,10 +9,10 @@ package table_test
 import (
 	"testing"
 
-	"github.com/scylladb/gocqlx"
-	. "github.com/scylladb/gocqlx/gocqlxtest"
-	"github.com/scylladb/gocqlx/qb"
-	"github.com/scylladb/gocqlx/table"
+	"github.com/azamasu/gocqlx"
+	. "github.com/azamasu/gocqlx/gocqlxtest"
+	"github.com/azamasu/gocqlx/qb"
+	"github.com/azamasu/gocqlx/table"
 )
 
 func TestExample(t *testing.T) {

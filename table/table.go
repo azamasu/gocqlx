@@ -4,7 +4,7 @@
 
 package table
 
-import "github.com/scylladb/gocqlx/qb"
+import "github.com/azamasu/gocqlx/qb"
 
 // Metadata represents table schema.
 type Metadata struct {

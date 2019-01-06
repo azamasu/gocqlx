@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
+	. "github.com/azamasu/gocqlx/gocqlxtest"
+	"github.com/azamasu/gocqlx/migrate"
 	"github.com/gocql/gocql"
-	. "github.com/scylladb/gocqlx/gocqlxtest"
-	"github.com/scylladb/gocqlx/migrate"
 )
 
 var migrateSchema = `

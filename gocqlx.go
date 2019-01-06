@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"reflect"
 
+	"github.com/azamasu/gocqlx/reflectx"
 	"github.com/gocql/gocql"
-	"github.com/scylladb/gocqlx/reflectx"
 )
 
 // structOnlyError returns an error appropriate for type when a non-scannable
